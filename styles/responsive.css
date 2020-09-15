@@ -1,0 +1,285 @@
+@media (min-width: 1440px) {
+  main section.banner {
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  main section.new-experience {
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  main section.banner > img {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  main section.banner {
+    height: 25rem;
+    background-size: 80rem 40rem;
+    background-position-x: center;
+    background-position-y: -9rem;
+    margin-bottom: 0;
+  }
+
+  main section.banner > img {
+    width: 7rem;
+    position: absolute;
+    left: 5rem;
+    top: 27rem;
+  }
+
+  main div.test-drive {
+    top: 15rem;
+    right: 6rem;
+    width: 20rem;
+  }
+
+  main div.test-drive input,
+  main div.test-drive select,
+  main div.test-drive button {
+    width: 18rem;
+  }
+
+  main section.apresentation {
+    padding-left: 2rem;
+  }
+
+  main section.apresentation h1 {
+    width: 45rem;
+    font: 800 2.4rem FoundryMonoline-Regular;
+    text-align: center;
+  }
+
+  main section.apresentation div.civic-preview {
+    width: 50rem;
+    height: 15rem;
+  }
+
+  main section.apresentation div.civic-preview div {
+    display: none;
+  }
+
+  main section.apresentation div.civic-preview > img {
+    height: 100%;
+    margin-left: 0;
+  }
+
+  main section.apresentation p {
+    width: 45rem;
+    margin-top: 6rem;
+    font: 400 1.8rem FoundryMonoline-Regular;
+    line-height: 2.4rem;
+    text-align: center;
+  }
+
+  main section.new-experience {
+    background-size: cover;
+    background-position: center;
+  }
+
+  main section.new-experience h1 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  main section.new-experience p {
+    width: 100%;
+    margin-left: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.1rem;
+  }
+
+  main section.car-details {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 12rem;
+  }
+
+  main section.car-details div.car-details-carousel {
+    margin-left: 0;
+    width: 28rem;
+  }
+
+  main section.car-details div.car-details-carousel h1 {
+    width: 100%;
+    margin-top: 0.7rem;
+    text-align: center;
+  }
+
+  main section.car-details div.car-details-carousel p {
+    width: 25rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+
+  main section.choose-model {
+    padding-left: 0;
+    margin-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  main section.choose-model h1 {
+    width: 45rem;
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  main section.choose-model p {
+    width: 45rem;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    text-align: center;
+  }
+
+  main section.choose-model nav.car-models {
+    flex-direction: column;
+    width: 45rem;
+    height: 95rem;
+  }
+
+  main section.choose-model nav.car-models div {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  main section.choose-model nav.car-models div a {
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (max-width: 425px) {
+  main section.banner {
+    width: 100%;
+    height: 23.6rem;
+    margin-bottom: 8rem;
+    background: url('../assets/images/Civic-2017-black.svg') no-repeat;
+    background-position: center;
+  }
+
+  main section.banner > img {
+    display: none;
+  }
+
+  main section.banner img.civic-generation {
+    display: initial;
+    position: static;
+    width: 37.5rem;
+    margin-left: 2.5rem;
+    margin-top: 25rem;
+  }
+
+  main div.test-drive {
+    position: initial;
+    width: 36.5rem;
+    margin-bottom: 4.3rem;
+  }
+
+  main div.test-drive input,
+  main div.test-drive select,
+  main div.test-drive button {
+    width: 33.5rem;
+  }
+
+  main section.apresentation {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  main section.apresentation h1 {
+    width: 36.5rem;
+    margin-bottom: 1.4rem;
+  }
+
+  main section.apresentation div.civic-preview {
+    width: 36.5rem;
+    height: 10rem;
+  }
+
+  main section.apresentation p {
+    width: 36.5rem;
+  }
+
+  main section.car-details {
+    width: 37.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  main section.choose-model {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  main section.choose-model h1 {
+    width: 33rem;
+  }
+
+  main section.choose-model p {
+    width: 33rem;
+  }
+
+  main section.choose-model nav.car-models {
+    width: 40rem;
+    height: 105rem;
+  }
+
+
+  main section.customer-service {
+    height: 40rem;
+    margin-top: 5rem;
+  }
+
+  main section.customer-service > div {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  main section.customer-service div a + a {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  main section.customer-service div a.find-dealership div {
+    justify-content: center;
+  }
+
+  main section.customer-service h1 {
+    width: 23rem;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  main section.banner img.civic-generation {
+    width: 32.5rem;
+  }
+
+  main div.test-drive {
+    width: 33.5rem;
+  }
+
+  main div.test-drive input,
+  main div.test-drive select,
+  main div.test-drive button {
+    width: 29.5rem;
+  }
+
+  main section.choose-model nav.car-models {
+    width: 35rem;
+  }
+}
+

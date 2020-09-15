@@ -1,0 +1,93 @@
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2.5rem;
+  background: #EEEEEE;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 12rem;
+}
+
+header nav ul.home {
+  margin-left: 9rem;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 2.5rem;
+}
+
+header nav ul.home li {
+  margin: 0;
+}
+
+header nav ul li a {
+  margin-left: 0.5rem;
+  color: #707070;
+  font: 500 1.2rem FoundryMonoline-Regular;
+}
+
+header nav ul li span {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+}
+
+header nav ul li span.portal {
+  background: url('../../assets/images/home.svg') no-repeat;
+}
+
+header nav ul li span.find-dealership {
+  background: url('../../assets/images/locale.svg') no-repeat;
+  margin-top: 0.3rem;
+}
+
+header nav ul li span.contact-us {
+  background: url('../../assets/images/black-envelope.svg') no-repeat;
+  margin-top: 0.5rem;
+}
+
+header div.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 9rem;
+  background: #FFFFFF;
+}
+
+header div.sub-header a img {
+  margin-left: 11rem;
+}
+
+header div.sub-header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12rem;
+}
+
+header div.sub-header div h1 {
+  color: #727B7A;
+  font: 500 1.6rem FoundryMonoline-Regular;
+  font-style: italic;
+  letter-spacing: -0.07rem;
+}
+
+header div.sub-header div h2 {
+  color: #DF0209;
+  font: 800 2.6rem FoundryMonoline-Regular;
+  font-style: italic;
+}
+
+header nav.mobile {
+  display: none;
+}
